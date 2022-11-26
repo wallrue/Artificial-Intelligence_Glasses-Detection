@@ -10,9 +10,9 @@ We aim to create an application to detect whether the people in images are weari
 
 I. <strong>Dataset:</strong>
 
-	You can download dataset from [Data Cleaning of Glasses-No Glasses](https://www.kaggle.com/datasets/jorgebuenoperez/datacleaningglassesnoglasses). This dataset is originated from [Glasses or No Glasses](https://www.kaggle.com/datasets/jeffheaton/glasses-or-no-glasses). However, the original dataset is raw so dataset in first link was re-orginized from it by gathering all face with glasses images into a folder named 'glasses' and gethering all face without glasses images into a folder named 'no glasses'. 
+You can download dataset from [Data Cleaning of Glasses-No Glasses](https://www.kaggle.com/datasets/jorgebuenoperez/datacleaningglassesnoglasses). This dataset is originated from [Glasses or No Glasses](https://www.kaggle.com/datasets/jeffheaton/glasses-or-no-glasses). However, the original dataset is raw so dataset in first link was re-orginized from it by gathering all face with glasses images into a folder named 'glasses' and gethering all face without glasses images into a folder named 'no glasses'. 
 
-	This dataset contains 4322 images incluing 2470 images people wearing glasses and 1852 images people waering glasses. Besides, we also collect 300 images of people wearing glasses and 300 images of people no wearing glasses in order to make the dataset more various. The size of images in dataset is 1024x1024.
+This dataset contains 4322 images incluing 2470 images people wearing glasses and 1852 images people waering glasses. Besides, we also collect 300 images of people wearing glasses and 300 images of people no wearing glasses in order to make the dataset more various. The size of images in dataset is 1024x1024.
 
 II. <strong>Deep Learning Model:</strong>
 
