@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is repository for the final project of Artificial Intelligence course. The description of project is here.
+This is repository for the homework of Artificial Intelligence course. The description of project is here.
 
 ## Description
 
