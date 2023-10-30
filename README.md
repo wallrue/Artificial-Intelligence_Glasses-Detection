@@ -1,4 +1,4 @@
-# NTUST_Artificial-Intelligence_HW: Glasses Detection using Deep Convolution Neural Network
+# Glasses Detection using Deep Convolution Neural Network
 
 ## Introduction
 
