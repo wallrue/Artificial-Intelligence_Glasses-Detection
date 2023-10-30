@@ -18,7 +18,11 @@ II. <strong>Deep Learning Model:</strong>
 
 As for detecting face from images, we use the classifier named Haar-cascade. Haar-cascade classifier returns coordinates (x,y) and dimensions (w,h) of area containing faces. Based on this parameters, we separate the images out of original images. Then, the images will be resized to 100x100x3 which is also the input dimension of LeNet.
 
-<img src="Architecture.PNG" alt="1" width = auto height = auto>
+<img src="img/Architecture.PNG" alt="1" width = auto height = auto>
+
+Below is the structure of model which is designed based on LeNet but we change parameters.
+
+<img src="img/ModelStructure.png" alt="1" width = auto height = auto>
 
 III. <strong>How To Run: </strong>
 
@@ -26,4 +30,12 @@ III. <strong>How To Run: </strong>
   2. Secondly, We download the dataset from the link [Glasses or No Glasses Dataset](https://www.kaggle.com/datasets/jorgebuenoperez/datacleaningglassesnoglasses). We extract the dataset folder so that the python files and the folder 'images' are in the same place.
   3. Thirdly, we open cmd in the folder containing python files and type 'python training_model.py' to train model. After training, there are a folder named 'my.model' appears which contains parameters of model.
   4. Fourthly, we type 'python testing_model.py' to test the model by camera laptop (make sure that your laptop has camera).
+  
+IV. <strong>Result: </strong>
  
+The model demonstrated good performance in both training dataset, validation dataset and testing dataset. The results shown below were obtained after training a LeNet-based model for 25 epochs.
+
+<img src="img/Result.png" alt="1" width = auto height = auto>
+
+
+
