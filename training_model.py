@@ -261,7 +261,7 @@ if __name__ == "__main__":
     #model = ResNet50(input_shape = (100, 100, 3), classes = 2)
     mymodel = model.get_model()
  
-    lr_schedule = tf.keras.optimizers.schedules.ExponentialDecay(initial_learning_rate=INIT_LR, decay_steps=EPOCHS, decay_rate=INIT_LR / EPOCHS)
+    lr_schedule = tf.keras.optimizers.schedules.ExponentialDecay(initial_learning_rate=INIT_LR, decay_steps=10000, decay_rate=0.9)
     opt = Adam(learning_rate=lr_schedule) 
     mymodel.compile(loss="categorical_crossentropy", optimizer=opt,metrics=["acc"])
     
