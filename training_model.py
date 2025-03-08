@@ -269,7 +269,7 @@ if __name__ == "__main__":
     H = mymodel.fit(aug.flow(trainX, trainY, batch_size=BS),
             validation_data=(testX, testY), steps_per_epoch=int(len(trainX)/BS),
             epochs=EPOCHS, verbose=1)
-    mymodel.save(args["model"])
+    mymodel.save("my_model.keras")
     
     # plot the training loss and accuracy
     plt.style.use("ggplot")

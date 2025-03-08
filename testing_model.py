@@ -12,7 +12,7 @@ import numpy as np
 
 # Load the cascade
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-model=load_model('my.model')
+model=load_model("my_model.keras")
 
 size = 100
 font = cv2.FONT_HERSHEY_SIMPLEX
